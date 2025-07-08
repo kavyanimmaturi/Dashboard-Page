@@ -6,6 +6,11 @@
     Develop a dashboard page with specific functionalities like focus on front-end development,
     emphasize user interface design,data handling, and client-side data persistence.
 
+## Links:
+
+      Github Link - https://github.com/kavyanimmaturi/Dashboard-Page.git
+      Project Link - https://dashboard-page-beryl.vercel.app/
+
 ## Platform Used:
        Visual Studio
 

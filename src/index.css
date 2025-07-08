@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333; 
+  font-family: 'Roboto';
+}
+
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #d7d2d2;
+  height:100vh;
+  width:60vw;
+  margin: auto;
+  margin-top:80px;
+  border-radius: 10px;
+ margin-bottom:20px;
+}
+.profile{
+  display: flex;
+  flex-direction:row;
+}
+.profile-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-details{
+  padding-left:10px;
+}
+.user-name{
+  color:#000;
+  font-weight:600;
+  font-size:20px;
+  gap: 0px;
+}
+.user-mail{
+  font-size: 18px;
+}
+.profile-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+.profile-cont{
+  display: flex;
+  flex-direction:column;
+  margin-left: 24px;
+  
+}
+.label-box{
+  font-size:18px;
+  padding:4px;
+  margin:4px;
+  font-weight:500;
+  cursor: pointer;
+  color: #000;
+}
+.input-field{
+  height:40px;
+  width:800px;
+  border-radius:5px;
+  border:2px solid #f0eeee;
+}
+.button{
+  display: flex;
+  justify-content: end;
+}
+.back-btn{
+  height: 50px;
+  border-radius:10px;
+  background-color: rgb(67, 64, 242);
+  border-width: 0px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* CommentsDashboard */ 
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 10px;
+  background: white;
+}
+
+th{
+  background-color: #2b257d;
+  cursor: pointer;
+  color: #fff;
+}
+th,td{
+  text-align:center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.pagination{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.pages{
+  margin:4px;
+}
